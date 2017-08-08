@@ -1,0 +1,13 @@
+#Event Finder for AWS lambda
+service: event-finder
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  echo:
+    handler:  index.handler
+    memory: 256
+    events:
+      - alexaSkill

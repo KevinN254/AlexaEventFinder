@@ -1,0 +1,15 @@
+{
+  "name": "stockmaster",
+  "version": "1.0.0",
+  "description": "Current Stock Trends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Ngunjiri",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "request": "^2.81.0"
+  }
+}
